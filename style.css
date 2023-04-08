@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+}
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    padding: 10px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    background-size: cover;
+    height: 55vh;
+    background-color: rgb(216, 196, 210);
+}
+.der{ 
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    text-align: left;
+    text-shadow: 3px 0px 6px white;
+    color:white;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top:70px;
+    left:300px;
+}
+.menu{
+    background-color: antiquewhite;
+    position:relative;
+    padding: 10px;
+}
+.informacion{
+    padding: 5px;
+    background-color: rgb(155, 111, 111);
+    color:white;
+    position:relative;
+    top:-20px;
+    padding: 10px;
+}
+
+.uno{
+    background-color: rgb(216, 196, 210);
+    position:relative;
+    top:48px;
+}
+.dos{
+    background-color: antiquewhite;
+    position:relative;
+    top:48px;
+}
+.tres{
+    background-color: antiquewhite;
+    position:relative;
+    top:48px;
+}
+.cuatro{
+    background-color: antiquewhite;
+    position:relative;
+    top:48px;
+}
+.cinco{
+    background-color: antiquewhite;
+    position:relative;
+    top:48px;
+}
+.seis{
+    background-color: antiquewhite;
+    position:relative;
+    top:48px;
+}
+.siete{
+    background-color: antiquewhite;
+    position:relative;
+    top:48px;
+}
